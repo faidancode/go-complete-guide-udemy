@@ -1,4 +1,4 @@
-***:=*** Equal syntax
+***:=*** Equal syntax (colon equals)
 
 ### 5 OO vs Go Approach
 
