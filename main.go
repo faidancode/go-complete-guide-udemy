@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Main") // This is the main entry point of the application.
+	//	var card string = "Ace of Spades"
+	card := "Ace of Spades"
+	card = "Five of Diamonds"
+	fmt.Println(card)
 }
