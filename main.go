@@ -6,6 +6,9 @@ func main() {
 	// hand, remainingDeck := deal(cards, 5)
 	// hand.print()
 	// remainingDeck.print()
-	cards := newDeck()
-	cards.saveToFile("my_card")
+	// cards := newDeck()
+	// cards.saveToFile("my_cards")
+
+	cards := newDeckFromFile("my_cards")
+	cards.print()
 }
