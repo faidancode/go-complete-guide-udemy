@@ -4,6 +4,10 @@ GO=go
 # =========================
 # RUN
 # =========================
-.PHONY: run
-run:
-	$(GO) run main.go deck.go
+.PHONY:  cards
+cards:
+	$(GO) run ./cards/main.go ./cards/deck.go
+
+.PHONY: printslice
+printslice:
+	$(GO) run ./printslice/main.go
